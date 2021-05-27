@@ -36,3 +36,16 @@ body {
 .time small{
     color:#ccc
 }
+
+.fa-snowflake {
+	color: #fff;
+	position: absolute;
+	top: -20px;
+	animation: fall linear forwards;
+}
+
+@keyframes fall {
+	to {
+		transform: translateY(105vh);
+	}
+}
